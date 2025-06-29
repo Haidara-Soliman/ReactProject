@@ -1,0 +1,21 @@
+footer {
+  margin-top: 70px;
+  height: 70px;
+  p {
+    border-top: 1px solid rgba(9, 13, 31, 1);
+    color: rgba(26, 26, 26, 1);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 23px 75px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    margin-top: 15px;
+    p {
+      padding: 20px;
+      font-size: 18px;
+    }
+  }
+}
